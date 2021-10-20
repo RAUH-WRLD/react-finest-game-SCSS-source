@@ -1,0 +1,15 @@
+//latest-videos
+.latest-videos {
+    @extend .latest-news;
+}
+.latest-videos__content_title {
+    @extend .latest-news__content_title;
+}
+.latest-videos__content_player {
+    @extend .post__link;
+    iframe {
+        border: none;
+        width: 100%;
+        min-height: 285px;
+    }
+}

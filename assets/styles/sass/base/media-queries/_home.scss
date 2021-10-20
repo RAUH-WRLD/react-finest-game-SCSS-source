@@ -1,0 +1,305 @@
+//home page
+//start-news
+@media screen and (max-width: 1815px) {
+    .start-news__item {
+        .start-news__item_text {
+            .start-news__item_title {
+                h2 {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1700px) {
+    .start-news__item {
+        .start-news__item_overview {
+            margin: 40px;
+        }
+        .start-news__item_text {
+            margin: 40px;
+        }
+    }
+}
+@media screen and (max-width: 1500px) {
+    .start-news__item {
+        .start-news__item_text {
+            .start-news__item_title {
+                h2 {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1267px) {
+    .start-news__item {
+        .start-news__item_overview {
+            margin: 20px;
+        }
+        .start-news__item_text {
+            margin: 20px;
+            .start-news__item_title {
+                h2 {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1077px) {
+    .start-news__item {
+        .start-news__item_text {
+            .start-news__item_title {
+                h2 {
+                    font-size: 16px;
+                }
+            }
+            .start-news__item_info {
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 991.9px) {
+    .start-news__item {
+        .start-news__item_overview {
+            margin: 73px;
+        }
+        .start-news__item_text {
+            .start-news__item_title {
+                h2 {
+                    font-size: 28px;
+                    line-height: 38px;
+                }
+            }
+            .start-news__item_info {
+                font-size: 17px;
+            }
+            margin: 70px;
+            margin-bottom: 75px;
+        }
+    }
+}
+@media screen and (max-width: 798px) {
+    .start-news__item {
+        .start-news__item_text {
+            .start-news__item_title {
+                h2 {
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 678px) {
+    .start-news__item {
+        .start-news__item_overview {
+            margin: 40px;
+        }
+        .start-news__item_text {
+            margin: 40px;
+            .start-news__item_title {
+                h2 {
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 590px) {
+    .start-news__item {
+        .start-news__item_overview {
+            margin: 20px;
+        }
+        .start-news__item_text {
+            margin: 20px;
+            .start-news__item_title {
+                h2 {
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+            .start-news__item_info {
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 430px) {
+    .start-news__item {
+        height: 350px;
+        img {
+            object-fit: cover;
+        }
+        .start-news__item_info {
+            font-size: 12px !important;
+        }
+    }
+}
+@media screen and (max-width: 380px) {
+    .start-news__item {
+        .start-news__item_info {
+            font-size: 10px !important;
+        }
+    }
+}
+@media screen and (max-width: 330px) {
+    .start-news__item {
+        .start-news__item_info {
+            font-size: 9px !important;
+        }
+    }
+}
+//releases
+@media screen and (max-width: 1199.9px) {
+    .releases {
+        margin-top: 90px;
+    }
+}
+//posts
+@media screen and (max-width: 1199.9px) {
+    .post__item_title {
+        h2 {
+            font-size: 14.9px;
+        }
+    }
+    .post__item_info {
+        font-size: 12px;
+    }
+    .post__item {
+        img {
+            height: auto;
+        }
+    }
+}
+@media screen and (max-width: 991.9px) {
+    .post__item_title {
+        h2 {
+            font-size: 17px;
+        }
+    }
+}
+@media screen and (max-width: 767.9px) {
+    .post__link {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        max-width: 375px !important;
+    }
+    .post__item {
+        img {
+            height: 200px;
+        }
+    }
+    //latest news
+    .latest-news__content_title {
+        max-width: 375px;
+        margin: 0 auto;
+        h3 {
+            margin-right: 15px;
+        }
+        a {
+            white-space: nowrap;
+        }
+    }
+    .latest-news__item_left,
+    .latest-news__item_right {
+        display: flex;
+        justify-content: center;
+    }
+    .latest-videos__content_title {
+        max-width: none !important;
+    }
+    .latest-videos__content_player {
+        max-width: none !important;
+    }
+}
+@media screen and (max-width: 382px) {
+    .post__item {
+        img {
+            object-fit: cover;
+        }
+    }
+    .post__item_info {
+        font-size: 11px;
+    }
+    .latest-news__content_title {
+        a {
+            font-size: 12px;
+        }
+    }
+}
+//aside
+@media screen and (max-width: 1199.9px) {
+    .gaming-newsletter__form form {
+        justify-content: space-between;
+    }
+    .gaming-newsletter__form input {
+        font-size: small;
+        width: 183px;
+    }
+    .news-item__article_rating,
+    .news-item__article_date {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 991.9px) {
+    .popular-news,
+    .popular-posts {
+        margin-left: 0;
+    }
+    .gaming-newsletter__form form {
+        justify-content: flex-start;
+    }
+    .gaming-newsletter__form input {
+        font-size: small;
+        width: 183px;
+    }
+    .news-item__article_rating,
+    .news-item__article_date {
+        flex-direction: row;
+    }
+    .recomended-posts__items {
+        display: flex;
+        flex-direction: column;
+    }
+    .popular-news {
+        margin-top: 0 !important;
+    }
+}
+//videos
+@media screen and (max-width: 991.9px) {
+    .latest-videos__content_player {
+        iframe {
+            height: 100%;
+        }
+    }
+}
+//newsletter
+@media screen and (max-width: 991.9px) {
+    .newsletter__title {
+        padding-top: 15px;
+        padding-right: 0;
+        justify-content: center;
+    }
+    .newsletter__form {
+        display: flex;
+        padding-left: 0;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .newsletter__form {
+        form {
+            input {
+                width: auto !important;
+            }
+        }
+    }
+}

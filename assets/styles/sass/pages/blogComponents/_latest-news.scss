@@ -1,0 +1,25 @@
+//latest news
+.latest-news__item_title {
+    @extend .post__item_title;
+    margin-top: 0;
+}
+.latest-news__content_info {
+    margin-top: 40px;
+}
+.latest-news__item_description {
+    color: $color_1;
+    font-size: 14px;
+    line-height: 21px;
+    p {
+        margin-top: 17px;
+    }
+}
+.latest-news__item_image {
+    position: relative;
+}
+.latest-news__item_overview {
+    @extend .post__item_overview;
+}
+.latest-news__item_date {
+    @extend .post__item_info;
+}

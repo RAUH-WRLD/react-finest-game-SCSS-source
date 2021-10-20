@@ -1,0 +1,75 @@
+@import "../../../../../node_modules/normalize.css/normalize";
+html,
+body {
+    overflow-x: hidden !important;
+}
+html {
+    scroll-behavior: smooth !important;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 0;
+}
+a {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    user-select: none;
+    pointer-events: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+s {
+    margin: 0;
+}
+input {
+    outline: none;
+}
+input[type="text"]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+input[type="text"]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+main {
+    flex-grow: 1;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

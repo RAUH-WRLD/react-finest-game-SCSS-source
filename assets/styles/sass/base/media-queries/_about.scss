@@ -1,0 +1,44 @@
+//about
+//bloggers
+@media screen and (max-width: 1199.9px) {
+    .blogger-item__avatar {
+        min-width: 150px;
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+@media screen and (max-width: 420px) {
+    .blogger-item__info_bio {
+        p {
+            font-size: 12px;
+        }
+    }
+    .blogger-item__avatar {
+        min-width: 75px;
+        img {
+            width: 75px;
+            height: 75px;
+        }
+    }
+}
+//aside
+@media screen and (max-width: 991.9px) {
+    .main-about {
+        .popular-news {
+            margin-bottom: 40px;
+        }
+    }
+}
+//chapter
+@media screen and (max-width: 350px) {
+    .chapter__content {
+        .previous-page,
+        .current-page {
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+}

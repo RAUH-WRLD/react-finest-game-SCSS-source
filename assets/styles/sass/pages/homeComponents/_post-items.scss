@@ -1,0 +1,102 @@
+//posts-items
+.post__link {
+    margin-top: 27px;
+    .post__item:before {
+        opacity: 0;
+        visibility: hidden;
+        content: "";
+        position: absolute;
+        display: inline-block;
+        background: rgb(255, 80, 99);
+        background: linear-gradient(45deg, rgba(255, 80, 99, 1) 0%, rgba(255, 80, 99, 0.5998774509803921) 0%, rgba(255, 255, 255, 0) 100%);
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 200px;
+        transition: 0.5s ease;
+        z-index: 1;
+    }
+}
+.post__item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    img {
+        transition: 0.5s ease;
+        width: 375px;
+        height: 200px;
+    }
+}
+.post__item_overview {
+    @extend .start-news__item_overview;
+    margin: 30px;
+}
+.post__item_title {
+    margin-top: 30px;
+    color: $color_10;
+    margin-right: 50px;
+    h2 {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 500;
+    }
+}
+.post__item_info {
+    display: flex;
+    font-size: 16px;
+    line-height: 28px;
+    color: $color_11;
+    margin-top: 17px;
+    p:first-child {
+        span:nth-child(2) {
+            color: $color_1;
+            border-bottom: 1px solid $color_4;
+        }
+    }
+    p {
+        margin-right: 32px;
+    }
+    p:last-child {
+        @extend p:first-child;
+        margin-right: 0;
+    }
+    i {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+}
+.post__link:hover {
+    transition: all ease 0.5s;
+    .post__item:before {
+        opacity: 1;
+        visibility: visible;
+        transform: scale3d(105%, 105%, 105%);
+        transition: all ease 0.5s;
+    }
+    .post__item_title {
+        color: $color_4;
+        transition: all ease 0.5s;
+    }
+    .post__item_info {
+        p:first-child {
+            span:nth-child(2) {
+                color: $color_4;
+                transition: all ease 0.5s;
+            }
+        }
+        p:last-child {
+            span {
+                color: $color_1 !important;
+                transition: all ease 0.5s;
+            }
+        }
+    }
+    .post__item {
+        img {
+            filter: blur(1px);
+            transform: scale3d(105%, 105%, 105%);
+            transition: all ease 0.5s;
+        }
+    }
+}

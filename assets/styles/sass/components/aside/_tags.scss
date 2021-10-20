@@ -1,0 +1,22 @@
+//tags
+.tags__title {
+    @extend .archive__title;
+}
+.tags__list_item {
+    display: inline-block;
+    border: 1px solid $color_14;
+    margin-top: 10px;
+    margin-right: 10px;
+    a {
+        color: $color_1;
+        font-size: 16px;
+        line-height: 28px;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+.tags__list_item:first-child,
+.tags__list_item:nth-child(2),
+.tags__list_item:nth-child(3) {
+    margin-top: 0;
+}

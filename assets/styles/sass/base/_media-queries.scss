@@ -1,0 +1,11 @@
+//layout
+@import "../base/media-queries/_header.scss";
+@import "../base/media-queries/_footer.scss";
+//pages
+@import "../base/media-queries/_home.scss";
+@import "../base/media-queries/_about.scss";
+@import "../base/media-queries/_blog.scss";
+//vendors
+@import "../base/media-queries/_bootstrap.scss";
+//global components
+@import "../base/media-queries/_pagination.scss";

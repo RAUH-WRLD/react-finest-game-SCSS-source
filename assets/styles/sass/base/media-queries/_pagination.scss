@@ -1,0 +1,14 @@
+//pagination
+@media screen and (max-width: 380px) {
+    .pagination__btn {
+        a {
+            width: 35px;
+            height: 35px;
+        }
+    }
+    .pagination__pages {
+        a {
+            margin-right: 15px;
+        }
+    }
+}

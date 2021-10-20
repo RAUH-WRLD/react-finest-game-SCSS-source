@@ -1,0 +1,41 @@
+//tags //only for blog
+.latest-news__content_info {
+    max-width: 740px;
+    .tags {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .tags__items {
+            display: flex;
+            align-items: center;
+            i {
+                font-size: 14px;
+                line-height: 28px;
+                color: $color_11;
+                margin-right: 15px;
+            }
+        }
+        .tags__list_item {
+            border: none;
+            margin: 0;
+            margin-right: 10px;
+            a {
+                transition: 0.5s ease;
+                padding: 0;
+                color: $color_1;
+                font-size: 14px;
+                line-height: 18px;
+                border-bottom: 1px solid $color_4;
+                &:hover {
+                    color: $color_4;
+                    transition: all ease 0.5s;
+                }
+            }
+        }
+        .tags__list_item:hover {
+            background: none;
+        }
+        .tags__list_item:last-child {
+            margin-right: 0;
+        }
+    }
+}

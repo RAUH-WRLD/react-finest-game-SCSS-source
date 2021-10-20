@@ -1,0 +1,92 @@
+//upper
+.header__content_upper {
+    background: $color_1;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+}
+.upper__title {
+    h1 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        span:first-child {
+            color: $color_3;
+        }
+        span:last-child {
+            color: $color_2;
+        }
+    }
+}
+.upper__info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.upper__navigation {
+    ul {
+        display: flex;
+        li {
+            margin-right: 21px;
+            a {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+                color: $color_4;
+                transition: 0.5s ease;
+            }
+            a:hover {
+                color: $color_16;
+                transform: scale3d(97%, 97%, 97%);
+                transition: all ease 0.5s;
+            }
+        }
+        li:last-child {
+            margin-right: 0;
+        }
+    }
+}
+.upper__search form {
+    min-width: 271px;
+    margin-left: 23px;
+    background: $color_5;
+    min-height: 45px;
+    display: flex;
+    justify-content: space-between;
+    ::-webkit-input-placeholder {
+        color: $color_6;
+    }
+    .search {
+        background: none;
+        border: none;
+        color: $color_6;
+        padding-left: 20px;
+    }
+    .search::-webkit-input-placeholder {
+        transition: 0.5s ease;
+    }
+    .search:focus::-webkit-input-placeholder {
+        color: transparent;
+        transition: all ease 0.5s;
+    }
+    .search-btn {
+        width: 100%;
+        background: none;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+            color: $color_2;
+            transition: 0.5s ease;
+        }
+    }
+    .search-btn:hover {
+        i {
+            color: $color_17;
+            transition: all ease 0.5s;
+        }
+        transition: all ease 0.5s;
+    }
+}

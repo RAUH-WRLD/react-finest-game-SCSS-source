@@ -1,0 +1,32 @@
+//blog
+@media screen and (max-width: 1199.9px) {
+    .latest-news__content_info {
+        .post-news:nth-child(5) {
+            img {
+                max-width: none;
+            }
+        }
+    }
+}
+@media screen and (max-width: 991.9px) {
+    .latest-news__item_image {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+    .latest-news__item_info {
+        margin-left: 0 !important;
+        margin-top: 20px;
+    }
+    .main-blog {
+        .contact {
+            margin-bottom: 40px;
+        }
+    }
+}
+@media screen and (max-width: 360px) {
+    .main-blog {
+        .latest-news__content_item a {
+            font-size: 17px;
+        }
+    }
+}

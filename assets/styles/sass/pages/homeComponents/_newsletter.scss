@@ -1,0 +1,67 @@
+//newsletter
+.newsletter__content {
+    background: $color_4;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter__title {
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 52px;
+    h4 {
+        color: $color_2;
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+.newsletter__form {
+    padding-left: 52px;
+}
+.newsletter__form form {
+    display: inline-flex;
+    align-items: center;
+    ::-webkit-input-placeholder {
+        color: $color_2;
+        font-size: 14px;
+        line-height: 24px;
+        transition: 0.5s ease;
+    }
+    .newsletter {
+        @extend .search;
+        background: none;
+        border: 1px solid $color_12;
+        color: $color_2;
+        padding-left: 20px;
+        height: 51px;
+        width: 264px;
+    }
+    .newsletter:focus::-webkit-input-placeholder {
+        color: transparent;
+        transition: all ease 0.5s;
+    }
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        color: $color_2;
+        width: 55px;
+        height: 55px;
+        border: 1px solid $color_2;
+        transition: 0.5s ease;
+        i {
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    button:hover {
+        color: $color_4;
+        border: 1px solid $color_2;
+        background: $color_2;
+        transition: all ease 0.5s;
+    }
+}

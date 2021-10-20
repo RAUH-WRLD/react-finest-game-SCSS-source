@@ -1,0 +1,60 @@
+@import "../utils/_variables.scss";
+@import "../base/_fonts.scss";
+.main-error {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid $color_4;
+    background: $color_7;
+    .error-404,
+    .error-404__wrapper,
+    .error-404__content {
+        height: 100%;
+    }
+    .error-404__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &::before {
+            @extend .font-style-3;
+            content: "404";
+            display: inline-block;
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            right: 0;
+            bottom: 0;
+            font-size: 30px;
+            color: $color_4;
+        }
+        .error-404__content_title {
+            color: $color_4;
+            margin-bottom: 30px;
+            z-index: 1;
+            h2 {
+                line-height: 30px;
+                text-align: center;
+            }
+            h2:first-letter {
+                color: $color_2;
+                border-bottom: 1px solid $color_2;
+            }
+        }
+        .error-404__content_link {
+            z-index: 1;
+            a {
+                color: $color_3;
+                border-bottom: 1px solid $color_4;
+                line-height: 30px;
+                transition: 0.5s;
+            }
+            a:hover {
+                transform: scale3d(98%, 98%, 98%);
+                transition: all ease 0.5s;
+            }
+        }
+    }
+}

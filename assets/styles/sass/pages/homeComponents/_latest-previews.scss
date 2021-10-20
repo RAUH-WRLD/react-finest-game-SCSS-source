@@ -1,0 +1,13 @@
+//latest-previews
+.latest-previews {
+    @extend .latest-news;
+}
+.latest-previews__content_title {
+    @extend .latest-news__content_title;
+}
+.latest-previews__item_left {
+    @extend .latest-news__item_left;
+}
+.latest-previews__item_right {
+    @extend .latest-news__item_right;
+}

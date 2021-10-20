@@ -1,0 +1,11 @@
+//contact page
+.contact__title {
+    @extend .categories__title;
+}
+.contact__info {
+    iframe {
+        width: 100%;
+        border: none;
+        height: 400px;
+    }
+}

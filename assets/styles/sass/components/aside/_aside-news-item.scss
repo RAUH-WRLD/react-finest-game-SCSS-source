@@ -1,0 +1,62 @@
+//aside news-item
+.news-item__article {
+    display: flex;
+}
+.news-item__article_rating {
+    display: flex;
+}
+.news-item__article_image {
+    img {
+        margin-top: 3px;
+        max-width: none;
+        width: 85px;
+        height: 85px;
+    }
+}
+.news-item__article_info {
+    margin-left: 18px;
+}
+.news-item__article_date {
+    @extend .post__item_info;
+    margin: 0;
+}
+.news-item__article_category {
+    display: flex;
+    p {
+        font-size: 14px;
+        color: $color_1;
+        border-bottom: 1px solid $color_4;
+    }
+}
+.news-item__article_title {
+    @extend .post__item_title;
+    margin: 0;
+}
+.rating__items {
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+}
+.rating-item {
+    margin-right: 5px;
+    i {
+        font-size: 8px;
+        line-height: 26px;
+        color: $color_9;
+    }
+}
+.rating-item:last-child {
+    margin-right: 0;
+}
+.rating__author {
+    @extend .post__item_info;
+    margin: 0;
+}
+.gaming-news__items {
+    .news-item__link {
+        margin-top: 25px;
+    }
+    .news-item__link:first-child {
+        margin-top: 0;
+    }
+}

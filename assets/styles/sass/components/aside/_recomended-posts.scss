@@ -1,0 +1,7 @@
+//recomended posts
+.recomended-posts__title {
+    @extend .gaming-newsletter__title;
+}
+.recomended-posts__items {
+    @extend .gaming-news__items;
+}

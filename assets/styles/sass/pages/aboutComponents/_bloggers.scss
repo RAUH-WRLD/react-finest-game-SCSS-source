@@ -1,0 +1,31 @@
+//bloggers
+.about-bloggers {
+    margin-top: 40px;
+    max-width: 740px;
+    margin-bottom: 90px;
+}
+.about-bloggers__content_title {
+    margin-bottom: 20px;
+    h2 {
+        color: $color_15;
+        font-size: 24px;
+        line-height: 35px;
+        font-weight: 400;
+    }
+}
+.about-bloggers__content_info {
+    margin-top: 20px;
+    p,
+    h3 {
+        color: $color_1;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+}
+.about-bloggers__content_subtitle {
+    @extend .about-bloggers__content_info;
+}
+.about-bloggers__content_items {
+    margin-top: 54px;
+}

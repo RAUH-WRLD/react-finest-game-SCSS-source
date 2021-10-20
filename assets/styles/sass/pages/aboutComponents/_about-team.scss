@@ -1,0 +1,39 @@
+//about team
+.about-team {
+    margin-top: 100px;
+    max-width: 740px;
+}
+.about-team__content_title {
+    margin-bottom: 35px;
+    h2 {
+        color: $color_1;
+        font-size: 48px;
+        line-height: 60px;
+        font-weight: 400;
+    }
+}
+.about-team__content_subtitle {
+    h3 {
+        color: $color_1;
+        font-size: 24px;
+        line-height: 35px;
+        font-weight: 400;
+    }
+}
+.about-team__content_info {
+    p {
+        margin-top: 40px;
+        color: $color_1;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    p:first-child {
+        @extend .font-style-3;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+.about-team__content_image {
+    user-select: none;
+    margin-top: 40px;
+}

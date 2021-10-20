@@ -1,0 +1,11 @@
+@import "../../../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+//custom bootstrap settings
+.row {
+    --bs-gutter-x: none;
+}
+//custom container size
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}

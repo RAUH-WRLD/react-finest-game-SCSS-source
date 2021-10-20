@@ -1,0 +1,13 @@
+//aside
+aside {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+aside:first-child {
+    margin-top: 100px;
+}
+.popular-news__content {
+    section:not(section:first-child) {
+        margin-top: 50px;
+    }
+}

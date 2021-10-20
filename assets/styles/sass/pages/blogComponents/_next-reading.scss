@@ -1,0 +1,36 @@
+//next reading
+.next-reading__content {
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.next-reading__link {
+    a {
+        transition: 0.5s ease;
+        color: $color_1;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 600;
+        &:hover {
+            color: $color_4;
+            transition: all ease 0.5s;
+        }
+    }
+}
+.next-reading__social {
+    a {
+        transition: 0.5s ease;
+        font-size: 10px;
+        line-height: 24px;
+        color: $color_4;
+        margin-right: 25px;
+        &:hover {
+            color: $color_1;
+            transition: all ease 0.5s;
+        }
+    }
+    a:last-child {
+        margin-right: 0;
+    }
+}

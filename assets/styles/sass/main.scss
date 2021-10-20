@@ -1,0 +1,18 @@
+//base styles
+@import "./base/_reset.scss"; //for all pages
+@import "./vendors/_bootstrap.scss"; //for all pages
+@import "./base/_fonts.scss"; //for all pages
+@import "./utils/_variables.scss"; //for all pages
+//header & footer
+@import "./layout/_header.scss"; //for all pages
+@import "./layout/_footer.scss"; //for all pages
+//pages
+@import "./pages/_home.scss"; //only for home page
+@import "./pages/_about.scss"; //only for about page
+@import "./pages/_blog.scss"; //only for blog page
+//reusable components
+@import "./components/_aside.scss"; //for all pages
+@import "./components/_chapter.scss"; //only for about page & blog page
+@import "./components/_pagination.scss"; //only for home page
+//media queries
+@import "./base/_media-queries.scss"; //for all pages

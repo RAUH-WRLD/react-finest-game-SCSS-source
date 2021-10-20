@@ -1,0 +1,47 @@
+//newsletter
+.gaming-newsletter__title {
+    @extend .social-news__title;
+}
+.gaming-newsletter__text {
+    @extend .social-news__text;
+}
+.gaming-newsletter__form {
+    form {
+        display: flex;
+        min-height: 55px;
+    }
+    ::-webkit-input-placeholder {
+        font-size: 14px;
+        line-height: 24px;
+        color: $color_11;
+    }
+    .search:focus::-webkit-input-placeholder {
+        color: transparent;
+    }
+    input {
+        border: 1px solid $color_14;
+        padding-left: 20px;
+        width: 250px;
+    }
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 55px;
+        width: 55px;
+        background: none;
+        border: 1px solid $color_1;
+        i {
+            color: $color_1;
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    button:hover {
+        background: $color_4;
+        border: 1px solid $color_4;
+        i {
+            color: $color_2;
+        }
+    }
+}

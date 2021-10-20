@@ -1,0 +1,8 @@
+//pagination
+.main-blog {
+    .pagination__pages {
+        a:nth-child(3) {
+            color: $color_4;
+        }
+    }
+}

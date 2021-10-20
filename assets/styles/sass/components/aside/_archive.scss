@@ -1,0 +1,21 @@
+//archive
+.archive__title {
+    @extend .popular-comments__title;
+}
+.archive__list_item {
+    display: flex;
+    flex-shrink: 0;
+    a {
+        color: $color_10;
+        display: flex;
+        align-items: center;
+        i {
+            font-size: 14px;
+            line-height: 40px;
+        }
+        span {
+            margin-left: 25px;
+            border-bottom: 1px solid $color_4;
+        }
+    }
+}

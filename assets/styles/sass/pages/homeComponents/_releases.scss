@@ -1,0 +1,110 @@
+//releases
+.releases__content_title {
+    @extend .latest-reviews__content_title;
+    align-items: center;
+}
+.releases__content_slider {
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 289px;
+}
+.releases__content_slider-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.releases__content_slide {
+    display: flex;
+    .releases__link {
+        height: 0;
+    }
+}
+.releases__content_item {
+    width: 476px;
+    position: relative;
+    background: $color_4;
+}
+.releases__link:hover {
+    .releases__content_info {
+        p {
+            visibility: visible;
+            position: static;
+            height: auto;
+            opacity: 1;
+            transition: all ease 0.5s;
+        }
+        p:nth-child(2) {
+            margin-top: 20px;
+            transition: all ease 0.5s;
+        }
+        p:last-child {
+            margin-top: 10px;
+            width: 76px;
+            border-bottom: 1px solid $color_4;
+            transition: all ease 0.5s;
+        }
+    }
+}
+.releases__content_info {
+    @extend .font-style-1;
+    position: absolute;
+    font-size: 14px;
+    line-height: 21px;
+    color: $color_2;
+    bottom: 0;
+    margin: 38px;
+    p {
+        visibility: hidden;
+        position: absolute;
+        height: 0;
+        opacity: 0;
+    }
+    p:last-child {
+        width: 76px;
+        border-bottom: 1px solid $color_4;
+    }
+}
+.releases__content_item:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8687850140056023) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.releases__content_title {
+    @extend .font-style-2;
+    h4 {
+        color: $color_9;
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+.releases__content_btns {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    button {
+        background: none;
+        color: $color_1;
+        transition: 0.5s ease;
+        i {
+            color: $color_1;
+            font-size: 18px;
+            line-height: 24px;
+            transition: 0.5s ease;
+        }
+    }
+    button:hover {
+        transition: all ease 0.5s;
+        i {
+            color: $color_4;
+            transition: all ease 0.5s;
+        }
+    }
+}

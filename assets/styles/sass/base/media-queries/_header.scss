@@ -1,0 +1,97 @@
+//header
+@media screen and (max-width: 1199.9px) {
+    header {
+        .lower__navigation_item {
+            margin-right: 32px !important;
+        }
+        .lower__social {
+            a {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 991.9px) {
+    header {
+        .lower__navigation_item {
+            margin-right: 42px !important;
+        }
+        .lower__navigation_item:last-child {
+            margin-right: 0 !important;
+        }
+        .upper__title {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .upper__info {
+            margin-top: 20px;
+            justify-content: center;
+        }
+        .lower__logo {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .lower__social {
+            margin-bottom: 20px;
+            a {
+                width: 40px;
+                height: 40px;
+            }
+        }
+        .lower__info {
+            flex-direction: column-reverse;
+            .lower__navigation_mobile_list,
+            .lower__navigation_desktop_list {
+                margin-bottom: 20px;
+                .menu {
+                    &::before {
+                        display: none;
+                    }
+                    .menu__list {
+                        top: 298px;
+                        .submenu__list {
+                            min-width: 160px;
+                        }
+                    }
+                }
+            }
+            .lower__navigation_mobile_list {
+                margin: 0;
+            }
+        }
+    }
+}
+@media screen and (max-width: 640px) {
+    header .lower__navigation_item {
+        margin-right: 0 !important;
+    }
+    .lower__info {
+        flex-direction: row !important;
+        align-items: flex-start !important;
+    }
+}
+@media screen and (max-width: 466px) {
+    .upper__info {
+        flex-direction: column;
+        .upper__navigation {
+            margin-bottom: 15px;
+        }
+        .upper__search {
+            form {
+                margin-left: 0;
+            }
+        }
+    }
+}
+@media screen and (max-width: 375px) {
+    .upper__title {
+        h1 {
+            font-size: 13px;
+        }
+    }
+    .upper__info {
+        margin-top: 10px !important;
+    }
+}

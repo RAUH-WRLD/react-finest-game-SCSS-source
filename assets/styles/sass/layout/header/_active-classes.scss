@@ -1,0 +1,15 @@
+//active classes
+.flex-active {
+    display: flex;
+}
+.block-active {
+    display: block;
+}
+.mobile-menu-active {
+    transform: translateX(0);
+    transition: all ease 0.5s;
+}
+.mobile-closer-active {
+    opacity: 1;
+    transition: all ease 0.5s;
+}

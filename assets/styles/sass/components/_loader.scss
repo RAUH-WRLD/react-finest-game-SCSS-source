@@ -1,0 +1,29 @@
+@import "../utils/_variables.scss";
+.loader {
+    position: absolute;
+    background: $color_7;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid $color_4;
+}
+.loader__content img {
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes loading {
+    0% {
+        transform: scale3d(100%, 100%, 100%);
+    }
+    100% {
+        transform: scale3d(90%, 90%, 90%);
+    }
+}

@@ -1,0 +1,37 @@
+//social
+.social-news__title {
+    margin-bottom: 25px;
+    h3 {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 700;
+        color: $color_1;
+    }
+}
+.social-news__text {
+    @extend .font-style-1;
+    margin-bottom: 32px;
+    color: $color_1;
+    font-size: 16px;
+    line-height: 24px;
+}
+.social-news__links {
+    nav {
+        ul {
+            display: flex;
+            li {
+                margin-right: 47px;
+                a {
+                    color: $color_13;
+                    i {
+                        font-size: 16px;
+                        line-height: 28px;
+                    }
+                }
+            }
+            li:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

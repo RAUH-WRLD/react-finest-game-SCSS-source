@@ -1,0 +1,6 @@
+//popular posts
+.popular-posts__content {
+    section:not(section:first-child) {
+        margin-top: 50px;
+    }
+}

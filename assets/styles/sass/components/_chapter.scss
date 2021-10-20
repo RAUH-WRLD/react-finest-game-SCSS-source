@@ -1,0 +1,30 @@
+.chapter__wrapper {
+    background: $color_4;
+}
+.chapter__content {
+    display: flex;
+    align-items: center;
+    min-height: 45px;
+}
+.previous-page a {
+    color: $color_2;
+    font-size: 14px;
+    line-height: 28px;
+    transition: 0.5s ease;
+    &:hover {
+        color: $color_17;
+        transition: all ease 0.5s;
+    }
+}
+.separator {
+    cursor: default;
+    user-select: none;
+    color: $color_12;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 28px;
+}
+.current-page {
+    @extend .previous-page;
+}

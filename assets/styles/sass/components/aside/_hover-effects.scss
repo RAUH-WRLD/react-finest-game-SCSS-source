@@ -1,0 +1,74 @@
+//hover effects
+.social-news__links {
+    a {
+        transition: 0.5s ease;
+    }
+    a:hover {
+        color: $color_4;
+        transition: all ease 0.5s;
+    }
+}
+.gaming-newsletter__form {
+    .newsletter::-webkit-input-placeholder {
+        transition: 0.5s ease;
+    }
+    .newsletter:focus::-webkit-input-placeholder {
+        color: transparent;
+        transition: all ease 0.5s;
+    }
+    .newsletter-btn {
+        i {
+            transition: 0.5s ease;
+        }
+    }
+    .newsletter-btn:hover {
+        i {
+            color: $color_2;
+            transition: all ease 0.5s;
+        }
+        transition: all ease 0.5s;
+    }
+}
+.news-item__link {
+    transition: 0.5s ease;
+    h2 {
+        transition: 0.5s ease;
+    }
+}
+.news-item__link:hover {
+    transform: scale3d(98%, 98%, 98%);
+    transition: all ease 0.5s;
+    h2 {
+        color: $color_4;
+        transition: all ease 0.5s;
+    }
+}
+.popular-comments__info {
+    a {
+        transition: 0.5s ease;
+    }
+    a:hover {
+        transform: translateX(5px);
+        color: $color_4;
+        transition: all ease 0.5s;
+    }
+}
+.archive__list_item {
+    transition: 0.5s ease;
+    a {
+        transition: 0.5s ease;
+        &:hover {
+            transform: translateX(5px);
+            color: $color_17;
+            transition: all ease 0.5s;
+        }
+    }
+}
+.tags__list_item {
+    transition: 0.5s ease;
+    &:hover {
+        background: $color_14;
+        border-color: $color_4;
+        transition: all ease 0.5s;
+    }
+}

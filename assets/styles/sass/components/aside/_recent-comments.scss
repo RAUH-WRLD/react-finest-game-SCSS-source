@@ -1,0 +1,26 @@
+//recent comments
+.popular-comments__title {
+    @extend .gaming-newsletter__title;
+}
+.popular-comments__info {
+    a {
+        margin-top: 28px;
+        color: $color_1;
+        border: none;
+        line-height: 24px;
+        span {
+            font-size: 16px;
+        }
+        span:first-child,
+        span:nth-child(3) {
+            border-bottom: 1px solid $color_4;
+        }
+        span:nth-child(2) {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+    a:first-child {
+        margin-top: 0;
+    }
+}
